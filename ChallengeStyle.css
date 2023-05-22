@@ -1,0 +1,122 @@
+*{
+background: #EEEEEE;
+font-family: 'Inter', sans-serif;
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+}
+
+.logoalura {
+	margin-left: 20px;
+	padding-top: 10px;
+	width: 2%;
+}
+
+main {
+	display: flex;
+	margin-bottom: 50px;
+	margin-left: 80px;
+}
+
+.areadetexto {
+	border: none;
+	color: #3CB371;
+	margin-top: 90px;
+	text-transform: lowercase;
+}
+
+.areadetexto::placeholder {color: #3CB371;}
+	.areadetexto:focus {
+		outline: none;
+	}
+
+.mensagem {
+	background: white;
+	background-image: url(boneco.png);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	border: none;
+	border-radius: 24px;
+	color: #3CB371;
+	margin-left: 98px;
+	margin-top: 20px;
+	padding-left: 20px;
+	position: fixed;
+}
+
+.mensagem:focus {
+	outline: none;
+}
+
+.botoes {
+	display: flex;
+	margin-top: 18px;
+}
+
+.botao-desencriptar {
+	background: #EEEEEE;
+	border: 1px solid #3CB371;
+	border-radius: 24px;
+	color: #3CB371;
+	cursor: pointer;
+	height: 67px;
+	margin-left: 30px;
+	width: 328px;
+}
+
+.botao-desencriptar:hover {
+	background: #CDCDCD;
+	transition: 1s;
+}
+
+.botao-desencriptar:active {
+	background: #7CFC00;
+}
+
+.botao-encriptar {
+	background-color: #3CB371;
+	border: 1px solid #3CB371;
+	border-radius: 24px;
+	color: white;
+	cursor: pointer;
+	height: 67px;
+	width: 328px;
+}
+
+.botao-encriptar:hover {
+	background-color: #00FA9A;
+	transition: 1s;
+}
+
+.botao-encriptar:active {
+	background: #7CFC00;
+}
+
+.botao-copiar {
+	border: 1px solid #3CB371;
+	border-radius: 24px;
+	color: #3CB371;
+	cursor: pointer;
+	height: 67px;
+	margin-left: 108px;
+	margin-top: 402px;
+	position: absolute;
+	width: 100px;
+	font-size: 25px;
+}
+
+.botao-copiar:hover {
+	background: #CDCDCD;
+	transition: 1s;
+}
+
+.botao-copiar:active {
+	background: #7CFC00;
+}
+
+h6 {
+	color: #3CB371;
+	font-size: 16px;
+	margin-bottom: 15px;
+	margin-top: 60px;
+}
