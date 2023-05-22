@@ -2,7 +2,7 @@
 
 Decodificador de texto desenvolvido em HTML, CSS e Javascript como desafio para a turma 5 do programa Oracle Next Education.
 
-![image](https://github.com/RafCamargo/ChallengeAluraOne/assets/109090719/dedaed80-7c8e-40bf-8b5e-ae6635713193)
+![image](https://github.com/RafCamargo/ChallengeAluraOne/assets/109090719/899ba9d5-5fce-4af4-8a2b-291951d29cba)
 
 As "chaves" de criptografia utilizadas são: A letra "e" é convertida para "enter" A letra "i" é convertida para "imes" A letra "a" é convertida para "ai" A letra "o" é convertida para "ober" A letra "u" é convertida para "ufat".
 
